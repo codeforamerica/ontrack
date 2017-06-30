@@ -3311,7 +3311,7 @@ label {
 
 .progress-indicator {
     width: 10em;
-    margin: 2em auto;
+    margin: 1em auto;
     text-align: center;
     position: relative
 }
@@ -3321,7 +3321,7 @@ label {
     display: block;
     position: absolute;
     top: 0;
-    height: 6px;
+    height: 5px;
     left: 0;
     right: 0;
     border-radius: 3px;
@@ -3645,12 +3645,12 @@ only screen and (min-resolution: 1.3dppx) {
 }
 
 body {
-    margin-bottom: 480px
+    margin-bottom: 100px
 }
 
 @media screen and (min-width: 601px) {
     body {
-        margin-bottom: 320px
+        margin-bottom: 50px
     }
 }
 
