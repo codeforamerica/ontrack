@@ -28,15 +28,14 @@ $(document).ready(function(){
     calculateProgress();
 
     // Send analytics event
-    ga('send', 'event', id, checked ? 'checked' : 'un-checked');
+    ga('send', 'event', id, checked ? 'checked' : 'un-checked', 'Checkbox Action');
   });
 
   // When user clicks link
   $("a").click(function(){
     var link = $(this).attr('href');
-
     // Send analytics event
-    ga('send', 'event', id, 'clicked');
+    ga('send', 'event', link, 'clicked', 'Link Clicked');
   })
 
   // Helper function for progress
