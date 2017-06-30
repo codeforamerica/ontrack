@@ -1,66 +1,73 @@
 <!DOCTYPE html>
 <html>
-<title>Tasks</title>
-	<meta name="CfA" content=""/>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body id="tasks">
+   <title>Tasks</title>
+   <meta name="CfA" content=""/>
+   <link rel="stylesheet" type="text/css" href="styles.css">
+   </head>
+   <body id="tasks">
+      <div class="page-wrapper">
+         <header>
+            <div class="toolbar">
+               <br>
+               <div class="toolbar__left">
+                  <h1>On Track</h1>
+               </div>
+            </div>
+         </header>
+         <div class="grid">
+            <div class="card">
+               <form>
+                  <div class="">
+                     <label for="getcalfresh" class="checkbox">
+                       <input type="checkbox" name="" id="getcalfresh"> <a href="https://getcalfresh.org">See if you qualify for food stamps</a>
+                     </label>
+                     <label for="update_resume" class="checkbox">
+                       <input type="checkbox" name="" id="update_resume"> Update your resume
+                     </label>
+                     <label for="visit_career_center" class="checkbox">
+                       <input type="checkbox" name="" id="visit_career_center"> Locate <a href="https://www.careeronestop.org/LocalHelp/local-help.aspx">your local career center</a>
+                     </label>
+                     <label for="clear_my_record" class="checkbox">
+                       <input type="checkbox" name="" id="clear_my_record"> Need to clear your criminal record?  <a href="https://clearmyrecord.codeforamerica.org">Check out Clear My Record</a>
+                     </label>
+                     <label for="visit_indeed" class="checkbox">
+                       <input type="checkbox" name="" id="visit_indeed"> Upload your resume to job sites like <a href="https://www.indeed.com">Indeed.com</a>
+                     </label>
+                     <label for="meetup_linkedin_network" class="checkbox">
+                       <input type="checkbox" name="" id="meetup_linkedin_network"> Use <a href="https://www.meetup.com">Meetup.com</a> or <a href="https://www.linkedin.com"> LinkedIn</a> to meet new people in your network
+                     </label>
+                    <label for="interview_practice" class="checkbox">
+                      <input type="checkbox" name="" id="interview_practice"> Do a practice interview with a friend
+                     </label>
+                     <label for="job_fair" class="checkbox">
+                       <input type="checkbox" name="" id="job_fair"> Sign up for a <a href="http://jobfairsin.com/california">local job fair</a> and bring your resume
+                     </label>
+                     <label for="community_college" class="checkbox">
+                       <input type="checkbox" name="" id="community_college"> Check out resources at your <a href="https://www.aacc.nche.edu/pages/ccfinder.aspx">local community college</a>
+                     </label>
+                     <label for="aptitude_test" class="checkbox">
+                       <input type="checkbox" name="" id="aptitude_test"> Determine <a href="http://www.rasmussen.edu/resources/aptitude-test/"> what type of jobs</a> you might enjoy
+                     </label>
+                  </div>
+               </form>
+            </div>
+         </div>
+         <footer>
+            <div class="toolbar">
+               <div class="text--centered" class="cfa"><b>A Code for America Project</b></div>
+            </div>
+         </footer>
+      </div>
+   </body>
+   <script type="text/javascript" src="script.js"></script>
+   <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-<div class="page-wrapper">
+      ga('create', 'UA-101869424-1', 'auto');
+      ga('send', 'pageview');
 
-<header>
-    <div class="toolbar">
-        <br>
-        <div class="toolbar__left"><h1>On Track</h1></div>
-    </div>
-</header>
-
-<div class="grid">
-<div class="card">
-<form>
-    <div class="">
-    <label for="getcalfresh" class="checkbox">
-      <input type="checkbox" name="" id="getcalfresh"> <a href="https://getcalfresh.org">See if you qualify for food stamps</a>
-    </label>
-    <label for="update_resume" class="checkbox">
-      <input type="checkbox" name="" id="update_resume"> Update your resume
-    </label>
-    <label for="visit_career_center" class="checkbox">
-      <input type="checkbox" name="" id="visit_career_center"> Locate <a href="https://www.careeronestop.org/LocalHelp/local-help.aspx">your local career center</a>
-    </label>
-    <label for="clear_my_record" class="checkbox">
-      <input type="checkbox" name="" id="clear_my_record"> Need to clear your criminal record?  <a href="https://clearmyrecord.codeforamerica.org">Check out Clear My Record</a>
-    </label>
-    <label for="visit_indeed" class="checkbox">
-      <input type="checkbox" name="" id="visit_indeed"> Upload your resume to job sites like <a href="https://www.indeed.com">Indeed.com</a>
-    </label>
-    <label for="meetup_linkedin_network" class="checkbox">
-      <input type="checkbox" name="" id="meetup_linkedin_network"> Use <a href="https://www.meetup.com">Meetup.com</a> or <a href="https://www.linkedin.com"> LinkedIn</a> to meet new people in your network
-    </label>
-    <label for="interview_practice" class="checkbox">
-      <input type="checkbox" name="" id="interview_practice"> Do a practice interview with a friend
-    </label>
-    <label for="job_fair" class="checkbox">
-      <input type="checkbox" name="" id="job_fair"> Sign up for a <a href="http://jobfairsin.com/california">local job fair</a> and bring your resume
-    </label>
-    <label for="community_college" class="checkbox">
-      <input type="checkbox" name="" id="community_college"> Check out resources at your <a href="https://www.aacc.nche.edu/pages/ccfinder.aspx">local community college</a>
-    </label>
-    <label for="aptitude_test" class="checkbox">
-      <input type="checkbox" name="" id="aptitude_test"> Determine <a href="http://www.rasmussen.edu/resources/aptitude-test/"> what type of jobs</a> you might enjoy
-    </label>
-    </div>
-</form>
-</div>
-    </div>
-
-<footer>
-    <div class="toolbar">
-    <div class="text--centered" class="cfa"><b>A Code for America Project</b></div>
-    </div>
-</footer>
-
-</div>
-</body>
-<script type="text/javascript" src="script.js"></script>
+    </script>
 </html>
